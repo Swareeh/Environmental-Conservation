@@ -1,0 +1,38 @@
+/* Importing font Comfortaa */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body{
+    background-image: url('./Images/Reference\ Background.png');
+    font-family: 'Comfortaa' , cursive;
+}
+
+.div{
+    background-color: white;
+    margin: 100px 300px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px
+}
+
+a {
+    color: black;
+}
+
+button{
+    background-color: red;
+    border: 3px solid lightseagreen;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.copyright{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}

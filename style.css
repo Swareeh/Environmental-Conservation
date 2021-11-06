@@ -1,0 +1,572 @@
+/* Importing The font Itim */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* Importing the font Mukta*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+/* Importing the font Stick No Bills */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap');
+/* Importing the font Gemunu Libre */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+/* Importing the font Heebo */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Responsive */
+
+body{
+    background-image: url('./Images/Forest.jpg');
+}
+
+.Startup{
+    background-color: palegreen;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    color: green;
+    font-size: medium;
+    margin: 100px 150px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.front-heading{
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.svTrees{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.svTrees:hover{
+    transform: scale(1.1);
+}
+
+
+.Intro {
+    background-color: #6FE168;
+    color: rgb(228, 102, 57);
+    font-family: 'Itim', cursive;
+    padding: 30px;
+}
+
+
+.Para1{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-size: 10px;
+}
+
+.Typs{
+    color: black;
+    font-size: 10px;
+}
+
+/* Tree Conservation */
+
+.Tree-Conservation{
+    background-color: #61FF56;
+    color: rgb(103, 94, 163);
+    font-family: 'Itim', cursive;
+    padding: 20px;
+}
+
+
+.PlantImg{
+    float: left;
+    margin: 15px;
+}
+
+.Tree-Article{
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Mukta', sans-serif;   
+    font-size: 10px;
+}
+
+/* Animal Conservation */
+
+.Animal-Conservation{
+    font-family: 'Itim', cursive;
+    background-color: #90e797 ;
+    color: black;
+    padding: 10px;
+}
+
+.AnimalConser{
+    margin: 50px;
+    text-align: right;
+}
+
+.AnimalImg{
+    height: 300px;
+    width: 600px;
+    float: right;
+    margin: 10px;
+}
+
+.animal-article{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-size: 10px;
+}
+
+/* Marine Conservation */
+
+.Marine-Conservation{
+    font-family: 'Itim', cursive;
+    background-color: #9FFF99;
+    color: blue;
+    padding: 10px;
+}
+
+
+.MarineImg{
+   float: left;
+   margin: 10px;
+}
+
+.marine-article{
+    color: black;
+    font-family: 'Mukta', sans-serif;   
+    padding-left: 20px;
+    font-size: 10px;
+}
+
+/* Tips to save the enviroment*/
+
+.Tips{
+    background-color: #bae7e1;
+    color: #580f7d;
+    font-family: "Itim", cursive;
+    padding: 1px;
+}
+
+.bulb{
+    height: 500px;
+    width: 475px;
+}
+
+.Tips-Container{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+}
+
+/* Conclusion */
+
+.Conclusion{
+    background-color: rgb(148, 166, 224);
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 20px
+}
+
+
+.final-qoute{
+    color: red;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Copyright{
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Itim', cursive;
+    padding: 20px;
+}
+
+.reference{
+    padding: 20px;
+}
+
+/* Tablet Responsive */
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        background-image: url('./Images/Forest.jpg');
+    }
+    
+    .Startup{
+        background-color: palegreen;
+        text-align: center;
+        font-family: 'Itim', cursive;
+        color: green;
+        font-size: medium;
+        margin: 100px 150px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .front-heading{
+        font-family: 'Stick No Bills', sans-serif;
+    }
+    
+    .svTrees{
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: greenyellow;
+        border: 2px solid black;
+    }
+    
+    .svTrees:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    .Intro {
+        background-color: #6FE168;
+        color: rgb(228, 102, 57);
+        font-family: 'Itim', cursive;
+        padding: 30px;
+    }
+    
+    
+    .Para1{
+        color: black;
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+    }
+    
+    .Typs{
+        color: black;
+        font-size: 15px;
+    }
+    
+    /* Tree Conservation */
+    
+    .Tree-Conservation{
+        background-color: #61FF56;
+        color: rgb(103, 94, 163);
+        font-family: 'Itim', cursive;
+        padding: 20px;
+    }
+    
+    .PlantImg{
+        float: left;
+        margin: 15px;
+    }
+    
+    .Tree-Article{
+        color: black;
+        padding: 20px;
+        text-align: left;
+        font-family: 'Mukta', sans-serif;   
+        font-size: 15px;
+    }
+    
+    /* Animal Conservation */
+    
+    .Animal-Conservation{
+        font-family: 'Itim', cursive;
+        background-color: #90e797 ;
+        color: black;
+        padding: 10px;
+    }
+    
+    .AnimalConser{
+        margin: 50px;
+        text-align: right;
+    }
+    
+    .AnimalImg{
+        height: 300px;
+        width: 600px;
+        float: right;
+        margin: 20px;
+    }
+    
+    .animal-article{
+        color: black;
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+    }
+    
+    /* Marine Conservation */
+    
+    .Marine-Conservation{
+        font-family: 'Itim', cursive;
+        background-color: #9FFF99;
+        color: blue;
+        padding: 10px;
+    }
+    
+    .MarineImg{
+       float: left;
+       margin: 20px;
+    }
+    
+    .marine-article{
+        color: black;
+        font-family: 'Mukta', sans-serif;   
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    
+    /* Tips to save the enviroment*/
+    
+    .Tips{
+        background-color: #bae7e1;
+        color: #580f7d;
+        font-family: "Itim", cursive;
+        padding: 1px;
+    }
+    
+    .bulb{
+        height: 500px;
+        width: 475px;
+    }
+    
+    .Tips-Container{
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: 25px;
+    }
+    
+    /* Conclusion */
+    
+    .Conclusion{
+        background-color: rgb(148, 166, 224);
+        font-family: 'Heebo', sans-serif;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        padding: 20px
+    }
+    
+    
+    .final-qoute{
+        color: red;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .Copyright{
+        background-color: white;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Itim', cursive;
+        padding: 20px;
+    }
+    
+    .reference{
+        padding: 20px;
+    }
+}
+
+/* PC Responsive */
+
+@media only screen and (min-width: 1000px) {
+    
+    html::-webkit-scrollbar{
+        width: 10px;
+        border-radius: 15px;
+    }
+    
+    html::-webkit-scrollbar-track{
+        background: skyblue;
+        border-radius: 15px;
+    }
+    
+    html::-webkit-scrollbar-thumb{
+        background: rgb(0, 128, 0, 0.788);
+        border-radius: 15px;
+    }
+    
+    body{
+        background-image: url('./Images/Forest.jpg');
+    }
+    
+    .Startup{
+        background-color: palegreen;
+        text-align: center;
+        font-family: 'Itim', cursive;
+        color: green;
+        font-size: medium;
+        margin: 200px 400px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .front-heading{
+        font-family: 'Stick No Bills', sans-serif;
+    }
+    
+    .svTrees{
+        padding: 10px;
+        border-radius: 5px;
+        background-color: greenyellow;
+        border: 2px solid black;
+    }
+    
+    .svTrees:hover{
+        transform: scale(1.1);
+    }
+    
+    .Intro{
+        background-color: #6FE168;
+        color: rgb(228, 102, 57);
+        font-family: 'Itim', cursive;
+        padding: 10px;
+    }
+    
+    
+    .Para1{
+        color: black;
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+    }
+    
+    .Typs{
+        color: black;
+        font-size: 15px;
+    }
+    
+    /* Tree Conservation */
+    
+    .Tree-Conservation{
+        background-color: #61FF56;
+        color: rgb(103, 94, 163);
+        font-family: 'Itim', cursive;
+        padding: 10px;
+    }
+    
+    .TreeConser{
+        display: flex;
+            align-items: center;
+            justify-content: center
+    }
+    
+    .PlantImg{
+        max-width: 100%;
+        flex-basis: 20%
+    }
+    
+    .Tree-Article{
+        color: black;
+        font-family: 'Mukta', sans-serif;   
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    
+    /* Animal Conservation */
+    
+    .Animal-Conservation{
+        font-family: 'Itim', cursive;
+        background-color: #90e797 ;
+        color: black;
+        padding: 10px;
+    }
+    
+    .AnimalConser{
+    margin: 50px;
+    text-align: left;
+    }
+    
+    .AnimalImg{
+        height: 350px;
+        width: 700px;
+        float: right;
+    }
+    
+    .animal-article{
+        color: black;
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+    }
+    
+    /* Marine Conservation */
+    
+    .Marine-Conservation{
+        font-family: 'Itim', cursive;
+        background-color: #9FFF99;
+        color: blue;
+        padding: 10px;
+    }
+    
+    .Marine-ArticleDiv{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .MarineImg{
+        max-width: 100%;
+        flex-basis: 20%;
+        margin: 50px;
+    }
+    
+    .marine-article{
+        color: black;
+        font-family: 'Mukta', sans-serif;   
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    
+    /* Tips to save the enviroment*/
+    
+    .Tips{
+        background-color: #bae7e1;
+        color: #580f7d;
+        font-family: "Itim", cursive;
+        padding: 1px;
+    }
+    
+    .bulb{
+        height: 500px;
+        width: 475px;
+    }
+    
+    .Tips-Container{
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+    }
+    
+    /* Conclusion */
+    
+    .final-qoute{
+        color: red;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .Conclusion{
+        background-color: rgb(148, 166, 224);
+        font-family: 'Heebo', sans-serif;
+        color: black;
+        text-align: center;
+        padding: 20px
+    }
+    
+    .Copyright{
+        background-color: white;
+        text-align: center;
+        font-family: 'Itim', cursive;
+        padding: 20px;
+        font-size: 20px;
+    }
+} 
